@@ -1,3 +1,8 @@
+let number = 1;
+console.log(number++);
+console.log(++number);
+console.log(number--);
+console.log(--number);
 
  let number1 = Math.floor(Math.random() * 100);
  
@@ -7,8 +12,3 @@
   else {console.log('[',number1,']', ':Это нечетное число');
 };
 
-let number = 1;
-console.log(number++);
-console.log(++number);
-console.log(number--);
-console.log(--number);
